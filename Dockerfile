@@ -29,4 +29,5 @@ RUN pip install dlib
 RUN pip install opencv-python-headless numpy
 
 # Final Verification: Print versions of tools
+
 RUN python3 -c "import dlib; import cv2; print('Dlib Version:', dlib.__version__); print('OpenCV Version:', cv2.__version__)"
