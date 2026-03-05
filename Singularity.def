@@ -35,4 +35,5 @@ From: python:3.12-slim
 %labels
     Author Aarav
     Version 1.0.0
+
     Description Python 3.12 + Dlib + OpenCV for Red Hen Lab
